@@ -1,5 +1,6 @@
 <script>
 import MainHeader from './components/MainHeader.vue'
+import AppHero from './components/AppHero.vue'
 
 export default {
   data() {
@@ -8,13 +9,15 @@ export default {
      }
   },
   components: {
-    MainHeader
+    MainHeader,
+    AppHero
   },
 }
 </script>
 
 <template>
-  <MainHeader/>
+  <MainHeader />
+  <AppHero />
 </template>
 
 <style scoped>

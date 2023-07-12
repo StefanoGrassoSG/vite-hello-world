@@ -9,13 +9,13 @@ export default {
 </script>
 
 <template>
-    <header>
+    <h1>
         La mia prima app con Vite!
-    </header>
+    </h1>
 </template>
 
 <style scoped>
-header {
+h1 {
     color: green;
     font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
